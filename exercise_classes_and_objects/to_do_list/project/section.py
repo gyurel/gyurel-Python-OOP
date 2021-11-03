@@ -11,7 +11,7 @@ class Section:
 
         for task in self.tasks:
             if task.name == new_task.name:
-                return f"Task is already in the section {new_task.name}"
+                return f"Task is already in the section {self.name}"
 
         self.tasks.append(new_task)
         return f"Task {new_task.details()} is added to the section"
