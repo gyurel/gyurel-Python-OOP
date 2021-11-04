@@ -1,6 +1,6 @@
 from to_do_list.project.task import Task
 
-
+# This is the section class
 class Section:
 
     def __init__(self, name):
