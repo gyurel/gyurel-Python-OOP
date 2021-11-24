@@ -4,8 +4,10 @@ def cache(func):
     def wrapper(n):
         if n in log:
             return log[n]
+
         current_fib_num = func(n)
         log[n] = current_fib_num
+
         return current_fib_num
 
     wrapper.log = log
