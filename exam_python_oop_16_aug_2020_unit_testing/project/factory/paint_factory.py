@@ -1,4 +1,4 @@
-from .factory import Factory
+from project.factory.factory import Factory
 
 
 class PaintFactory(Factory):
